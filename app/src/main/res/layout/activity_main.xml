@@ -36,4 +36,35 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/redValueText" />
 
+    <!-- Green Color Controls -->
+    <TextView
+        android:id="@+id/greenValueText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Green: 0.000"
+        android:minWidth="80dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/redSeekBar" />
+
+    <Switch
+        android:id="@+id/greenSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="On/Off"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/greenValueText" />
+
+    <SeekBar
+        android:id="@+id/greenSeekBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/greenValueText" />
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
