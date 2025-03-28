@@ -94,4 +94,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/blueValueText" />
 
+    <!-- Color Preview -->
+
+    <!-- Reset Button -->
+
+    <View
+        android:id="@+id/colorPreview"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:background="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/blueSeekBar" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
